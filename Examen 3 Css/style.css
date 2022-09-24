@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    font-family: cursive;
+}
+
+#container{
+    color: white;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    align-content: center;
+}
+
+#intro{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+}
+
+#pageHeader h1{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.img-header img{
+    width: 100%;
+}
+
+
+#supportingText{
+    padding: 10px;
+    text-align: justify;
+}
+
+#lselect{
+    padding-top: 50%;
+}
+
+#lselect a{
+    color: white;
+    text-decoration-style: dashed;
+}
+
+#larchives a{
+    text-decoration: none;
+    color: white;
+}
+
+h3{ 
+    color: rgb(170, 169, 169);
+    font-size: 25px;
+}
+
+#footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+

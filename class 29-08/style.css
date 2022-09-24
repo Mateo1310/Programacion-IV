@@ -1,0 +1,46 @@
+.btn-mateo{
+    border-radius: 0%;
+}
+.accordion-mateo{
+    background-color: blue;
+    color: white;
+    border-radius: 1.35rem;
+    font-family: cursive;
+}
+
+.navbar-mateo:hover{
+    background-color: aquamarine !important;
+    text-transform: uppercase;
+}
+
+.dropdown-omar{
+    border-color: black;
+    background: white;
+    color: blueviolet;
+}
+
+.card-mateo{
+    font-family: cursive;
+    text-align: center;
+}
+
+.btn-x{
+    background-color: blueviolet !important;
+}
+
+.btn-primary-middle{
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.page-omar{
+    background: black;
+    color: darkseagreen;
+}
+
+.spinner-omar{
+    background-color: greenyellow;
+    color: red;
+}
+    

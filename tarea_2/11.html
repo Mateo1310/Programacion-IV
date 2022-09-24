@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="11.png html" />
+	<meta name="keywords" content="html, input, select, text"/>
+	<meta name="author" content="Mateo Rodriguez">
+    <link rel="stylesheet" href="style11.css">
+    <title>11.png</title>
+</head>
+<body>
+    <section>
+        <h1 class="titulo">Registro en nuestra tienda</h1>
+
+        <form class="formulario">
+            <fieldset>
+                <legend class="legend__formulario"><b>Ingresa tus datos</b></legend>
+
+                <div class="campos-registro">
+                    <div class="campo">
+                        <label class="campo__label">Nombre de usuario:</label><br>
+                        <input type="text" placeholder="Ej: Mateo" required>
+                    </div><br>
+            
+                    <div class="campo">
+                        <label class="campo__label">Correo Electronico:</label><br>
+                        <input type="email" placeholder="Ej: mateo@umanizales.edu.co" required>
+                    </div><br>
+            
+                    <div class="campo">
+                        <label class="campo__label">Edad:</label><br>
+                        <input type="number" placeholder="Ej: 23" required>
+                    </div><br>
+            
+                    <div class="campo">
+                        <label class="campo__label">Género:</label><br>
+                        <input type="radio">Masculino<br>
+                        <input type="radio">Femenino
+                    </div><br>
+            
+                    <div class="campo">
+                        <label class="campo__label">Recomendado por:</label><br>
+                        <select>
+                            <option value="0">Google</option>
+                            <option value="1">Amazon</option>
+                            <option value="2">Facebook</option>
+                            <option value="3">Twitter</option>
+                        </select>
+                    </div><br>
+            
+                    <div class="campo">
+                        <label class="campo__label">Comentarios:</label><br>
+                        <textarea></textarea>
+                    </div><br>
+            
+                    <div class="campo">
+                        <label class="campo__label">Acepto terminos y condiciones:</label>
+                        <input type="checkbox" required>
+                    </div><br>
+                </div>
+
+                <div>
+                    <input type="submit" value="Registrar">
+                </div>
+
+            </fieldset>
+        </form>
+
+    </section>
+</body>
+</html>

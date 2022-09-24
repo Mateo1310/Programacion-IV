@@ -1,0 +1,2 @@
+rowspan: sirve para coger mas de dos filas de una tabla
+colspan: 
